@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TA-Allocation System</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../../static/register/css/main.css">
+		<style>
+			th,td
+				{
+				margin-left:25%;
+				width:100px;
+				}
+			.classx
+				{
+				color : "gray";
+				}
+			.classx
+				{
+				color : "gray";
+				}
+		</style>
+	</head>
+	<body id="home" data-spy="scroll" data-target=".main-nav" data-offset="73">
+		<div id="parallax" style="top: 72px;"></div><br><br>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="../../static/register/js/bootstrap.js"></script>
+		<!--<div class="container">-->
+		<section id="header">
+
+		    <nav class="navbar navbar-fixed-top" role="navigation">
+
+		        <div class="navbar-inner">
+		            <div class="container">
+
+		                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#navigation"></button>
+
+		                <!-- Logo goes here - replace the image with your -->
+		                <a href="/index" class="navbar-brand">BloodDonate</a>
+		                
+
+		                <!--<div class="collapse navbar-collapse main-nav" id="navigation">-->
+
+
+		                    <ul class="nav pull-right">
+
+		                        <!-- Menu items go here -->
+		                        <li class="hidden active"><a href="/">Home</a></li>
+		                        <li class=""><a href="#About">About</a></li>
+		                        <li class=""><a href="#Contact">Contact</a></li>
+		                        <li class=""><a href="/logout">Sign Out</a></li>
+		    
+		                        <!-- If you want sub-menu items, do them like this
+		                        <li>
+		                            <ul>
+		                              <li><a href="#">Item 1</a></li>
+		                              <li><a href="#">Item 2</a></li>
+		                            </ul>
+		                        </li> 
+		                        You just need to delete these comment lines -->
+		                    </ul>
+
+		                <!--</div>--><!-- /nav-collapse -->
+		            </div><!-- /container -->
+		        </div><!-- /navbar-inner -->
+		    </nav>
+
+		</section>
+		<section id="hero">
+       		
+       		<div class="container">
+		   		<br><br><!--<br><h1 class="muted text-muted text-center classx"><a href="">My Profile</a></h1>-->
+		   		
+		   		<div class="row">
+		   			<div class="col-md-12 hero-unit">
+			   			<div style="width:800px; margin:0 auto;" class="text-center">
+							<h4><strong>Thank you for donating. You will receive your red cross certificate soon.</strong></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="testimonials">
+ 			<div class = "container">
+ 				<div class = "row">
+					<div class="span5 col-md-4 text-center" id = "About">
+						
+						<h4 class="muted text-center">About</h4>
+						<p>This is a freeware service designed by students of <a href="http://www.iiitd.ac.in/" rel="nofollow">IIIT - Delhi</a> as a BYLD project.</p>
+						<!--<img src="../../static/register/img/about_us.png" alt="Booom! Logo" height=100 width=340><br><br>-->
+					</div>
+					<div class="span2">
+					</div>
+					<div class="span5 col-md-4 text-center" id="Contact">
+						
+						<h4 class="muted text-center">Contact</h4>
+						
+						<p>	
+						Pulkit Arora - pulkit12082@iiitd.ac.in<br>
+						Archit Taneja - archit12024@iiitd.ac.in <br>
+						Ishan Manjani - ishan12041@iiitd.ac.in <br>
+						</p>
+						<!--<img src="../../static/register/img/contactusf.png" alt="Booom! Logo" height=100 width=300><br><br>-->
+					</div>
+					<!--<div class="span4">
+						<h4 class="muted text-center">Reach Us</h4>
+						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+						<a href="#" class="btn btn-info">Contact Us</a>
+					</div>-->
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+			<div class="bottom-menu-inverse">
+
+			    <div class="container">
+
+			        <div class="row">
+			            <div class="col-md-6">
+			                <p>Copyright © 2014 <br>Made by Pulkit Arora, Archit Taneja and Ishan Manjani</p>
+			            </div>
+
+			            
+			        </div>
+			    
+			    </div><!-- /row -->
+			</div><!-- /container -->
+
+		</section>
+	</body>
+</html>
